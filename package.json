@@ -1,6 +1,6 @@
 {
   "name": "stylelint-formatter-junit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Gitlab-flavored Stylelint formatter for JUnit",
   "author": "Bradley Tran",
   "license": "MIT",
@@ -10,6 +10,11 @@
     "build": "rollup -c",
     "test": "ava",
     "prepublish": "rollup -c"
+  },
+  "homepage": "https://github.com/bradley-tran/stylelint-formatter-junit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradley-tran/stylelint-formatter-junit.git"
   },
   "keywords": [
     "stylelint",
