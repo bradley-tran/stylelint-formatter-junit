@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    // https://github.com/microsoft/TypeScript/issues/51515
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "moduleResolution": "node10",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["es2015"],
+    "skipLibCheck": true,
+    // Generate d.ts files
+    "declaration": true,
+    "outDir": "build"
+  },
+}
